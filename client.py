@@ -1,18 +1,6 @@
-from cgitb import text
-from email import message
-from itertools import tee
-from lib2to3.pytree import LeafPattern
-from msilib.schema import SelfReg
-from multiprocessing import set_forkserver_preload
-from operator import truediv
-from pydoc import cli
 import socket
 from threading import Thread
-from time import sleep
 from tkinter import *
-from tkinter import font
-from traceback import TracebackException
-from unicodedata import name
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
